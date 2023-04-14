@@ -1,0 +1,88 @@
+/*SECTIONS*/
+
+.section h2 {
+  color: white;
+  font-size: 10vw;
+  opacity: 0.5;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-top: 190px;
+}
+
+.section a {
+  text-decoration: none;
+}
+
+.section-ns {
+  background-image: url(../images/bannerNS.avif);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top right;
+  text-align: center;
+}
+
+.section-man {
+  background-image: url(../images/bannerMan.webp);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  text-align: center;
+}
+
+.section-woman {
+  background-image: url(../images/bannerWoman.avif);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  text-align: center;
+}
+
+.section-accessories {
+  background-image: url(../images/bannerAcc.avif);
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.section-contact {
+  height: 25vh;
+  text-align: center;
+}
+
+.section-contact h2 {
+  color: white;
+  font-size: 10vw;
+  opacity: 0.5;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-top: 10vh;
+}
+
+.section-contact a {
+  text-decoration: none;
+}
+
+/*FOOTER*/
+
+.footer-top {
+  height: 100px;
+  line-height: 10vh;
+}
+
+.footer-top a,
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-bottom,
+p {
+  background-color: black;
+  color: white;
+  line-height: 2vh;
+  padding-top: 2vh;
+  font-size: smaller;
+}
